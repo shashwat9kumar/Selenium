@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="14" passed="14" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-04-05T10:36:50Z" name="Twitter" finished-at="2021-04-05T10:38:49Z" duration-ms="118289">
+    <groups>
+    </groups>
+    <test started-at="2021-04-05T10:36:50Z" name="Health-Check" finished-at="2021-04-05T10:36:57Z" duration-ms="6738">
+      <class name="twitter.testcases.TC_HealthCheck">
+        <test-method is-config="true" signature="setup()[pri:0, instance:twitter.testcases.TC_HealthCheck@3b74ac8]" started-at="2021-04-05T10:36:50Z" name="setup" finished-at="2021-04-05T10:36:55Z" duration-ms="5114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="startReport(java.lang.reflect.Method)[pri:0, instance:twitter.testcases.TC_HealthCheck@3b74ac8]" started-at="2021-04-05T10:36:56Z" name="startReport" finished-at="2021-04-05T10:36:56Z" duration-ms="14" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void twitter.testcases.TC_HealthCheck.tc_001()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method signature="tc_001()[pri:0, instance:twitter.testcases.TC_HealthCheck@3b74ac8]" started-at="2021-04-05T10:36:56Z" name="tc_001" finished-at="2021-04-05T10:36:56Z" duration-ms="204" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_001 -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:twitter.testcases.TC_HealthCheck@3b74ac8]" started-at="2021-04-05T10:36:56Z" name="endReport" finished-at="2021-04-05T10:36:56Z" duration-ms="463" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+        <test-method is-config="true" signature="terminate()[pri:0, instance:twitter.testcases.TC_HealthCheck@3b74ac8]" started-at="2021-04-05T10:36:56Z" name="terminate" finished-at="2021-04-05T10:36:57Z" duration-ms="879" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminate -->
+      </class> <!-- twitter.testcases.TC_HealthCheck -->
+    </test> <!-- Health-Check -->
+    <test started-at="2021-04-05T10:36:57Z" name="Login-Tests" finished-at="2021-04-05T10:37:02Z" duration-ms="4938">
+      <class name="twitter.testcases.TC_HealthCheck">
+        <test-method is-config="true" signature="setup()[pri:0, instance:twitter.testcases.TC_HealthCheck@40317ba2]" started-at="2021-04-05T10:36:57Z" name="setup" finished-at="2021-04-05T10:37:01Z" duration-ms="3601" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="startReport(java.lang.reflect.Method)[pri:0, instance:twitter.testcases.TC_HealthCheck@40317ba2]" started-at="2021-04-05T10:37:01Z" name="startReport" finished-at="2021-04-05T10:37:01Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void twitter.testcases.TC_HealthCheck.tc_001()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method signature="tc_001()[pri:0, instance:twitter.testcases.TC_HealthCheck@40317ba2]" started-at="2021-04-05T10:37:01Z" name="tc_001" finished-at="2021-04-05T10:37:01Z" duration-ms="452" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_001 -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:twitter.testcases.TC_HealthCheck@40317ba2]" started-at="2021-04-05T10:37:01Z" name="endReport" finished-at="2021-04-05T10:37:01Z" duration-ms="96" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+        <test-method is-config="true" signature="terminate()[pri:0, instance:twitter.testcases.TC_HealthCheck@40317ba2]" started-at="2021-04-05T10:37:01Z" name="terminate" finished-at="2021-04-05T10:37:02Z" duration-ms="778" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminate -->
+      </class> <!-- twitter.testcases.TC_HealthCheck -->
+    </test> <!-- Login-Tests -->
+    <test started-at="2021-04-05T10:37:02Z" name="Console-Tests-1" finished-at="2021-04-05T10:37:57Z" duration-ms="54863">
+      <class name="twitter.testcases.console.ConsoleTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:twitter.testcases.console.ConsoleTests@73a8da0f]" started-at="2021-04-05T10:37:02Z" name="setup" finished-at="2021-04-05T10:37:05Z" duration-ms="2938" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="startReport(java.lang.reflect.Method)[pri:0, instance:twitter.testcases.console.ConsoleTests@73a8da0f]" started-at="2021-04-05T10:37:05Z" name="startReport" finished-at="2021-04-05T10:37:05Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void twitter.testcases.console.ConsoleTests.tc_001_Login(java.lang.String,java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method signature="tc_001_Login(java.lang.String, java.lang.String)[pri:0, instance:twitter.testcases.console.ConsoleTests@73a8da0f]" started-at="2021-04-05T10:37:05Z" name="tc_001_Login" data-provider="passing-login-details" finished-at="2021-04-05T10:37:20Z" duration-ms="14610" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestUserA5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[testusera]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_001_Login -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:twitter.testcases.console.ConsoleTests@73a8da0f]" started-at="2021-04-05T10:37:20Z" name="endReport" finished-at="2021-04-05T10:37:20Z" duration-ms="50" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+        <test-method signature="tc_002_Explore_Tab()[pri:1, instance:twitter.testcases.console.ConsoleTests@73a8da0f]" started-at="2021-04-05T10:37:20Z" name="tc_002_Explore_Tab" finished-at="2021-04-05T10:37:26Z" duration-ms="6331" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_002_Explore_Tab -->
+        <test-method is-config="true" signature="startReport(java.lang.reflect.Method)[pri:0, instance:twitter.testcases.console.ConsoleTests@73a8da0f]" started-at="2021-04-05T10:37:20Z" name="startReport" finished-at="2021-04-05T10:37:20Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void twitter.testcases.console.ConsoleTests.tc_002_Explore_Tab() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:twitter.testcases.console.ConsoleTests@73a8da0f]" started-at="2021-04-05T10:37:26Z" name="endReport" finished-at="2021-04-05T10:37:26Z" duration-ms="51" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+        <test-method is-config="true" signature="startReport(java.lang.reflect.Method)[pri:0, instance:twitter.testcases.console.ConsoleTests@73a8da0f]" started-at="2021-04-05T10:37:26Z" name="startReport" finished-at="2021-04-05T10:37:26Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void twitter.testcases.console.ConsoleTests.tc_003_Notifications_Tab() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method signature="tc_003_Notifications_Tab()[pri:2, instance:twitter.testcases.console.ConsoleTests@73a8da0f]" started-at="2021-04-05T10:37:26Z" name="tc_003_Notifications_Tab" finished-at="2021-04-05T10:37:34Z" duration-ms="8267" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_003_Notifications_Tab -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:twitter.testcases.console.ConsoleTests@73a8da0f]" started-at="2021-04-05T10:37:34Z" name="endReport" finished-at="2021-04-05T10:37:34Z" duration-ms="71" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+        <test-method is-config="true" signature="startReport(java.lang.reflect.Method)[pri:0, instance:twitter.testcases.console.ConsoleTests@73a8da0f]" started-at="2021-04-05T10:37:34Z" name="startReport" finished-at="2021-04-05T10:37:34Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void twitter.testcases.console.ConsoleTests.tc_004_Messages_Tab() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method signature="tc_004_Messages_Tab()[pri:3, instance:twitter.testcases.console.ConsoleTests@73a8da0f]" started-at="2021-04-05T10:37:34Z" name="tc_004_Messages_Tab" finished-at="2021-04-05T10:37:39Z" duration-ms="4143" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_004_Messages_Tab -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:twitter.testcases.console.ConsoleTests@73a8da0f]" started-at="2021-04-05T10:37:39Z" name="endReport" finished-at="2021-04-05T10:37:39Z" duration-ms="44" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+        <test-method is-config="true" signature="startReport(java.lang.reflect.Method)[pri:0, instance:twitter.testcases.console.ConsoleTests@73a8da0f]" started-at="2021-04-05T10:37:39Z" name="startReport" finished-at="2021-04-05T10:37:39Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void twitter.testcases.console.ConsoleTests.tc_005_Bookmarks_Tab() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method signature="tc_005_Bookmarks_Tab()[pri:4, instance:twitter.testcases.console.ConsoleTests@73a8da0f]" started-at="2021-04-05T10:37:39Z" name="tc_005_Bookmarks_Tab" finished-at="2021-04-05T10:37:43Z" duration-ms="4120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_005_Bookmarks_Tab -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:twitter.testcases.console.ConsoleTests@73a8da0f]" started-at="2021-04-05T10:37:43Z" name="endReport" finished-at="2021-04-05T10:37:43Z" duration-ms="41" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+        <test-method signature="tc_006_Lists_Tab()[pri:5, instance:twitter.testcases.console.ConsoleTests@73a8da0f]" started-at="2021-04-05T10:37:43Z" name="tc_006_Lists_Tab" finished-at="2021-04-05T10:37:47Z" duration-ms="4154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_006_Lists_Tab -->
+        <test-method is-config="true" signature="startReport(java.lang.reflect.Method)[pri:0, instance:twitter.testcases.console.ConsoleTests@73a8da0f]" started-at="2021-04-05T10:37:43Z" name="startReport" finished-at="2021-04-05T10:37:43Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void twitter.testcases.console.ConsoleTests.tc_006_Lists_Tab() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:twitter.testcases.console.ConsoleTests@73a8da0f]" started-at="2021-04-05T10:37:47Z" name="endReport" finished-at="2021-04-05T10:37:47Z" duration-ms="41" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+        <test-method is-config="true" signature="startReport(java.lang.reflect.Method)[pri:0, instance:twitter.testcases.console.ConsoleTests@73a8da0f]" started-at="2021-04-05T10:37:47Z" name="startReport" finished-at="2021-04-05T10:37:47Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void twitter.testcases.console.ConsoleTests.tc_007_Profile_Tab() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method signature="tc_007_Profile_Tab()[pri:6, instance:twitter.testcases.console.ConsoleTests@73a8da0f]" started-at="2021-04-05T10:37:47Z" name="tc_007_Profile_Tab" finished-at="2021-04-05T10:37:51Z" duration-ms="4138" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_007_Profile_Tab -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:twitter.testcases.console.ConsoleTests@73a8da0f]" started-at="2021-04-05T10:37:51Z" name="endReport" finished-at="2021-04-05T10:37:51Z" duration-ms="37" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+        <test-method is-config="true" signature="terminate()[pri:0, instance:twitter.testcases.console.ConsoleTests@73a8da0f]" started-at="2021-04-05T10:37:51Z" name="terminate" finished-at="2021-04-05T10:37:57Z" duration-ms="5797" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminate -->
+      </class> <!-- twitter.testcases.console.ConsoleTests -->
+    </test> <!-- Console-Tests-1 -->
+    <test started-at="2021-04-05T10:37:57Z" name="Console-Tests-2" finished-at="2021-04-05T10:38:49Z" duration-ms="51727">
+      <class name="twitter.testcases.console.ProfileTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:twitter.testcases.console.ProfileTest@13d4992d]" started-at="2021-04-05T10:37:57Z" name="setup" finished-at="2021-04-05T10:38:00Z" duration-ms="3506" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="tc_001_Login(java.lang.String, java.lang.String)[pri:0, instance:twitter.testcases.console.ProfileTest@13d4992d]" started-at="2021-04-05T10:38:00Z" name="tc_001_Login" data-provider="passing-login-details" finished-at="2021-04-05T10:38:14Z" duration-ms="13891" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestUserA5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[testusera]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_001_Login -->
+        <test-method is-config="true" signature="startReport(java.lang.reflect.Method)[pri:0, instance:twitter.testcases.console.ProfileTest@13d4992d]" started-at="2021-04-05T10:38:00Z" name="startReport" finished-at="2021-04-05T10:38:00Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void twitter.testcases.console.ProfileTest.tc_001_Login(java.lang.String,java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:twitter.testcases.console.ProfileTest@13d4992d]" started-at="2021-04-05T10:38:14Z" name="endReport" finished-at="2021-04-05T10:38:14Z" duration-ms="53" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+        <test-method signature="tc_002_Profile_Tab()[pri:1, instance:twitter.testcases.console.ProfileTest@13d4992d]" started-at="2021-04-05T10:38:14Z" name="tc_002_Profile_Tab" finished-at="2021-04-05T10:38:19Z" duration-ms="4156" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_002_Profile_Tab -->
+        <test-method is-config="true" signature="startReport(java.lang.reflect.Method)[pri:0, instance:twitter.testcases.console.ProfileTest@13d4992d]" started-at="2021-04-05T10:38:14Z" name="startReport" finished-at="2021-04-05T10:38:14Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void twitter.testcases.console.ProfileTest.tc_002_Profile_Tab() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:twitter.testcases.console.ProfileTest@13d4992d]" started-at="2021-04-05T10:38:19Z" name="endReport" finished-at="2021-04-05T10:38:19Z" duration-ms="49" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+        <test-method is-config="true" signature="startReport(java.lang.reflect.Method)[pri:0, instance:twitter.testcases.console.ProfileTest@13d4992d]" started-at="2021-04-05T10:38:19Z" name="startReport" finished-at="2021-04-05T10:38:19Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void twitter.testcases.console.ProfileTest.tc_003_Overall_Profile_Checks() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method signature="tc_003_Overall_Profile_Checks()[pri:2, instance:twitter.testcases.console.ProfileTest@13d4992d]" started-at="2021-04-05T10:38:19Z" name="tc_003_Overall_Profile_Checks" finished-at="2021-04-05T10:38:31Z" duration-ms="12525" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_003_Overall_Profile_Checks -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:twitter.testcases.console.ProfileTest@13d4992d]" started-at="2021-04-05T10:38:31Z" name="endReport" finished-at="2021-04-05T10:38:31Z" duration-ms="48" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+        <test-method is-config="true" signature="startReport(java.lang.reflect.Method)[pri:0, instance:twitter.testcases.console.ProfileTest@13d4992d]" started-at="2021-04-05T10:38:31Z" name="startReport" finished-at="2021-04-05T10:38:31Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void twitter.testcases.console.ProfileTest.tc_004_Profile_Followers_and_Following_Checks() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method signature="tc_004_Profile_Followers_and_Following_Checks()[pri:3, instance:twitter.testcases.console.ProfileTest@13d4992d]" started-at="2021-04-05T10:38:31Z" name="tc_004_Profile_Followers_and_Following_Checks" finished-at="2021-04-05T10:38:39Z" duration-ms="8308" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_004_Profile_Followers_and_Following_Checks -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:twitter.testcases.console.ProfileTest@13d4992d]" started-at="2021-04-05T10:38:39Z" name="endReport" finished-at="2021-04-05T10:38:40Z" duration-ms="34" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+        <test-method is-config="true" signature="startReport(java.lang.reflect.Method)[pri:0, instance:twitter.testcases.console.ProfileTest@13d4992d]" started-at="2021-04-05T10:38:40Z" name="startReport" finished-at="2021-04-05T10:38:40Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void twitter.testcases.console.ProfileTest.tc_005_Profile_Logout() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method signature="tc_005_Profile_Logout()[pri:4, instance:twitter.testcases.console.ProfileTest@13d4992d]" started-at="2021-04-05T10:38:40Z" name="tc_005_Profile_Logout" finished-at="2021-04-05T10:38:48Z" duration-ms="8247" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_005_Profile_Logout -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:twitter.testcases.console.ProfileTest@13d4992d]" started-at="2021-04-05T10:38:48Z" name="endReport" finished-at="2021-04-05T10:38:48Z" duration-ms="53" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+        <test-method is-config="true" signature="terminate()[pri:0, instance:twitter.testcases.console.ProfileTest@13d4992d]" started-at="2021-04-05T10:38:48Z" name="terminate" finished-at="2021-04-05T10:38:49Z" duration-ms="844" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminate -->
+      </class> <!-- twitter.testcases.console.ProfileTest -->
+    </test> <!-- Console-Tests-2 -->
+  </suite> <!-- Twitter -->
+</testng-results>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Twitter">
+	<test name ="Health-Check">
+		<classes>
+			<class name="twitter.testcases.TC_HealthCheck"></class>
+		</classes>
+	</test>
+	<test name ="Login-Tests">
+		<classes>
+			<class name="twitter.testcases.TC_HealthCheck"></class>
+		</classes>
+	</test>
+	<test name ="Console-Tests-1">
+		<classes>
+			<class name="twitter.testcases.console.ConsoleTests"></class>
+		</classes>
+	</test>
+	<test name ="Console-Tests-2">
+		<classes>
+			<class name="twitter.testcases.console.ProfileTest"></class>
+		</classes>
+	</test>
+</suite>
