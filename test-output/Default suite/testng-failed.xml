@@ -3,13 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="twitter.testcases.console.ConsoleTests">
+      <class name="twitter.testcases.TC_HealthCheck">
         <methods>
-          <include name="terminate"/>
           <include name="setup"/>
-          <include name="tc_002_Explore_Tab"/>
+          <include name="endReport"/>
+          <include name="terminate"/>
+          <include name="startReport"/>
+          <include name="tc_002"/>
         </methods>
-      </class> <!-- twitter.testcases.console.ConsoleTests -->
+      </class> <!-- twitter.testcases.TC_HealthCheck -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

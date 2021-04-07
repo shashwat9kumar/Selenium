@@ -8,7 +8,7 @@
 	</test>
 	<test name ="Login-Tests">
 		<classes>
-			<class name="twitter.testcases.TC_HealthCheck"></class>
+			<class name="twitter.testcases.loginAndRegistration.LoginTests"></class>
 		</classes>
 	</test>
 	<test name ="Console-Tests-1">
@@ -19,6 +19,16 @@
 	<test name ="Console-Tests-2">
 		<classes>
 			<class name="twitter.testcases.console.ProfileTest"></class>
+		</classes>
+	</test>
+	<test name ="Console-Tests-3">
+		<classes>
+			<class name="twitter.testcases.console.SearchTests"></class>
+		</classes>
+	</test>
+	<test name ="Console-Tests-4">
+		<classes>
+			<class name="twitter.testcases.console.TweetTests"></class>
 		</classes>
 	</test>
 </suite>
