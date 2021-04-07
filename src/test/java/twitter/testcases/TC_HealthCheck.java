@@ -6,6 +6,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
@@ -30,15 +32,15 @@ public class TC_HealthCheck {
 	
 	@BeforeClass
 	public void setup() {
-		WebDriverManager.chromedriver().setup();
+//		WebDriverManager.chromedriver().setup();
 //		ChromeDriverManager.getInstance().setup();
 		
 //		System.setProperty("webdriver.chrome.driver", "D:\\DevOps tools\\Selenium\\Drivers\\chromedriver_win32\\chromedriver.exe");
 
-		driver=new ChromeDriver();  
-
-		driver.navigate().to("https://twitter.com/");	  
-		driver.manage().window().maximize();
+//		driver=new ChromeDriver();  
+//
+//		driver.navigate().to("https://twitter.com/");	  
+//		driver.manage().window().maximize();
 		
 		report = new ExtentReports(location);
 	}
@@ -58,21 +60,101 @@ public class TC_HealthCheck {
 	
 	
 	
-//	Checking to see if the site works fine
+//	Checking to see if the site works fine on Chrome
 	@Test
-	public void tc_001() {
-		test.log(LogStatus.WARNING, "The Health Check has started");
+	public void tc_001_Chrome() throws InterruptedException {
+		
+		WebDriverManager.chromedriver().setup();
+		
+		driver=new ChromeDriver();  
+
+		driver.navigate().to("https://twitter.com/");	  
+		driver.manage().window().maximize();
+		
+		Thread.sleep(2000);
+		
+		test.log(LogStatus.WARNING, "The Health Check has started for Chrome");
 		test.log(LogStatus.INFO, "The Health Check will test site availibility and reachibility");
 		try {
 			WebElement helloSignIn = driver.findElement(By.xpath("//*[@id=\"react-root\"]/div/div/div/main/div/div/div/div[1]/div/div[3]/a[2]"));
 			helloSignIn.click();
+			
+			Thread.sleep(2000);
 			test.log(LogStatus.WARNING, "The Health Check has successful. Progressing with further tests");
 		}
 		catch(Exception e) {
 			test.log(LogStatus.ERROR, "The Health Check has Failed");
 			System.out.println("Error Encountered");
 		}
+		
+		driver.quit();
 	}
+	
+	
+	//Checking to see if the site works fine on Firefox
+	@Test
+	public void tc_002_Firefox() throws InterruptedException {
+		
+		WebDriverManager.firefoxdriver().setup();
+		
+		driver=new FirefoxDriver();  
+
+		driver.navigate().to("https://twitter.com/");	  
+		driver.manage().window().maximize();
+		
+		Thread.sleep(2000);
+		
+		test.log(LogStatus.WARNING, "The Health Check has started for Firefox");
+		test.log(LogStatus.INFO, "The Health Check will test site availibility and reachibility");
+		try {
+			WebElement helloSignIn = driver.findElement(By.xpath("//*[@id=\"react-root\"]/div/div/div/main/div/div/div/div[1]/div/div[3]/a[2]"));
+			helloSignIn.click();
+			
+			Thread.sleep(2000);
+			test.log(LogStatus.WARNING, "The Health Check has successful. Progressing with further tests");
+		}
+		catch(Exception e) {
+			test.log(LogStatus.ERROR, "The Health Check has Failed");
+			System.out.println("Error Encountered");
+		}
+		
+		driver.quit();
+	}
+	
+	
+	
+	//Checking to see if the site works fine on Edge 
+		@Test
+		public void tc_003_Edge() throws InterruptedException {
+			
+			WebDriverManager.edgedriver().setup();
+			
+			driver=new EdgeDriver();  
+
+			driver.navigate().to("https://twitter.com/");	  
+			driver.manage().window().maximize();
+			
+			Thread.sleep(2000);
+			
+			test.log(LogStatus.WARNING, "The Health Check has started for Edge");
+			test.log(LogStatus.INFO, "The Health Check will test site availibility and reachibility");
+			try {
+				WebElement helloSignIn = driver.findElement(By.xpath("//*[@id=\"react-root\"]/div/div/div/main/div/div/div/div[1]/div/div[3]/a[2]"));
+				helloSignIn.click();
+				
+				Thread.sleep(2000);
+				test.log(LogStatus.WARNING, "The Health Check has successful. Progressing with further tests");
+			}
+			catch(Exception e) {
+				test.log(LogStatus.ERROR, "The Health Check has Failed");
+				System.out.println("Error Encountered");
+			}
+			
+			driver.quit();
+		}
+	
+	
+	
 	
 	
 	@AfterClass
