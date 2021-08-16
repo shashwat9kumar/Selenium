@@ -3,4 +3,4 @@ Web testing the UI of Twitter using the Selenium framework (run using java) and 
 
 
 
-<iframe width="1080" height="720" src="https://www.youtube.com/embed/y881t8ilMyc" frameborder="0" allowfullscreen></iframe>
+![video](static/Selenium_Testing_Video.mp4)
