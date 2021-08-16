@@ -3,4 +3,4 @@ Web testing the UI of Twitter using the Selenium framework (run using java) and 
 
 
 
-![video](static/Selenium_Testing_Video.mp4)
+![video](https://github.com/shashwat9kumar/Twitter-Testing-Selenium/blob/master/static/Selenium_Testing_Video.mp4?raw=true)
